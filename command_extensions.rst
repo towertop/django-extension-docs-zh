@@ -17,7 +17,7 @@ management命令扩展
 
 * :doc:`dumpscript` - 生成一个Python脚本.包含指定app的所有数据对象.与Django的 ``dumpdata`` 命令不同的是 ``dumpscript`` 导出的是Python对象,而不是纯数据.这种导出数据的方式比直接导出数据或XML文件更容易理解,也更灵活.
 
-* :doc:`export_emails` - 从用户表中导出联系人信息,支持多种导出格式: 地址,谷歌,Outlook,LinkedIn和VCard.
+* :doc:`export_emails` - 从用户表中导出联系人信息,支持多种导出格式: Address,Google,Outlook,LinkedIn和VCard.
 
 * ``generate_secret_key`` - 重新生成一个项目密钥, ``settigns.py`` 文件中的 **SECRET_KEY** 配置.
 
