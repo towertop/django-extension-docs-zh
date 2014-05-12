@@ -7,11 +7,11 @@ management命令扩展
 
 * :doc:`create_app` - 新建一个app的简便方法,可以通过 ``--template`` 参数指定一个app作为创建模板 [1]_.
 
-* ``create_command`` - 在指定app内创建一个命令扩展目录,方便添加新的扩展命令(或者只能手动创建扩展命令的目录).
+* ``create_command`` - 在指定app内创建一个命令扩展目录,方便添加新的扩展命令(否则只能手动创建扩展命令的目录).
 
 * ``create_jobs`` - 在指定app内创建一个定时任务扩展目录,可以定期执行指定任务.
 
-* ``create_superuser`` - 方便的创建一个超级管理员 [2]_.
+* ``create_superuser`` - 方便地创建一个超级管理员 [2]_.
 
 * ``describe_form`` - 显示针对一个model的form描述.复制输出的内容到forms.py中可以完整定义一个对应model的form.
 
